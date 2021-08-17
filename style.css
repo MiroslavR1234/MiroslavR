@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,400&display=swap');
+.menu  {
+  background-color: #45015d; 
+  width: 150px;
+  height: 100%; 
+  position: fixed;
+  top: 0;
+  border-radius: 10px; 
+  padding: 10px 20px;
+} 
+.menu a{
+   display: block; 
+   text-decoration: none; 
+   color: white; 
+   padding: 8px 16px; 
+   transition: 2s;
+} 
+.menu h3 {
+    color: white; 
+} 
+body {
+  margin: 0;
+} 
+.menu a:hover {
+  background-color: lightgrey; 
+  color: #45015d; 
+  border-radius: 10px;
+} 
+.main  {
+  margin: 80px 40px 0 360px;
+} 
+.images img {
+  width: 45%;
+  border-radius: 10px; 
+  opacity: 0.7; 
+  margin: 5px;
+} 
+.images img:hover {
+  opacity: 1;
+} 
+h2 {
+  color: #45015d;
+} 
+hr {
+border: 5px solid #45015d; 
+border-radius: 5px;
+} 
+.member {
+  width: 30%; 
+  display: inline-block; 
+  padding: 10px;
+} 
+.member img {
+  width: 100%; 
+  border-radius: 10px;
+} 
+.member div{
+  background-color: #f1f1f1; 
+  border-radius: 5px;
+}
+.job {
+  color: #808080;
+} 
+.name {
+  color:black;
+} 
+.packagase ol {
+  list-style-type: none; 
+  background-color: #c4c4c4; 
+  padding: 0px;
+ 
+} 
+.tarif {
+  display: inline-block; 
+  width: 45%; 
+  text-align: center;
+} 
+#basic {
+  background-color: #45015d; 
+  color: #f1f1f1; 
+  padding: 20px 0px;
+} 
+#pro {
+  background-color: orangered;  
+  padding: 20px 0px;
+} 
+body {
+  font-family: 'Raleway', sans-serif; 
+  color: black;
+} 
+.packagase li {
+   border-bottom: 1px solid grey; 
+  padding: 10px;
+} 
+.prise {
+  font-weight: 900; 
+  font-size: 30px;
+} 
+.per {
+  color: #808080; 
+  font-size: 13px;
+} 
